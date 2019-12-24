@@ -1,0 +1,239 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  english,
+  man]{apa6}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Metodologi Penelitian dalam Psikologi Politik},
+  pdfborder={0 0 0},
+  breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-2}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+% Manuscript styling
+\usepackage{csquotes}
+\usepackage{upgreek}
+\captionsetup{font=singlespacing,justification=justified}
+
+% Table formatting
+\usepackage{longtable}
+\usepackage{lscape}
+% \usepackage[counterclockwise]{rotating}   % Landscape page setup for large tables
+\usepackage{multirow}		% Table styling
+\usepackage{tabularx}		% Control Column width
+\usepackage[flushleft]{threeparttable}	% Allows for three part tables with a specified notes section
+\usepackage{threeparttablex}            % Lets threeparttable work with longtable
+
+% Create new environments so endfloat can handle them
+% \newenvironment{ltable}
+%   {\begin{landscape}\begin{center}\begin{threeparttable}}
+%   {\end{threeparttable}\end{center}\end{landscape}}
+\newenvironment{lltable}{\begin{landscape}\begin{center}\begin{ThreePartTable}}{\end{ThreePartTable}\end{center}\end{landscape}}
+
+% Enables adjusting longtable caption width to table width
+% Solution found at http://golatex.de/longtable-mit-caption-so-breit-wie-die-tabelle-t15767.html
+\makeatletter
+\newcommand\LastLTentrywidth{1em}
+\newlength\longtablewidth
+\setlength{\longtablewidth}{1in}
+\newcommand{\getlongtablewidth}{\begingroup \ifcsname LT@\roman{LT@tables}\endcsname \global\longtablewidth=0pt \renewcommand{\LT@entry}[2]{\global\advance\longtablewidth by ##2\relax\gdef\LastLTentrywidth{##2}}\@nameuse{LT@\roman{LT@tables}} \fi \endgroup}
+
+% \setlength{\parindent}{0.5in}
+% \setlength{\parskip}{0pt plus 0pt minus 0pt}
+
+% Overwrite redefinition of paragraph and subparagraph by the default LaTeX template
+% See https://github.com/crsh/papaja/issues/292
+\makeatletter
+\renewcommand{\paragraph}{\@startsection{paragraph}{4}{\parindent}%
+  {0\baselineskip \@plus 0.2ex \@minus 0.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries\itshape\typesectitle}}
+
+\renewcommand{\subparagraph}[1]{\@startsection{subparagraph}{5}{1em}%
+  {0\baselineskip \@plus 0.2ex \@minus 0.2ex}%
+  {-\z@\relax}%
+  {\normalfont\normalsize\itshape\hspace{\parindent}{#1}\textit{\addperi}}{\relax}}
+\makeatother
+
+% \usepackage{etoolbox}
+\makeatletter
+\patchcmd{\HyOrg@maketitle}
+  {\section{\normalfont\normalsize\abstractname}}
+  {\section*{\normalfont\normalsize\abstractname}}
+  {}{\typeout{Failed to patch abstract.}}
+\makeatother
+\shorttitle{Metodologi Penelitian dalam Psikologi Politik}
+\author{Rizqy Amelia Zein\textsuperscript{1,2}}
+\affiliation{
+\vspace{0.5cm}
+\textsuperscript{1} Departemen Psikologi Kepribadian dan Sosial, Fakultas Psikologi Universitas Airlangga\\\textsuperscript{2} Institute for Globally Distributed Open Research and Education (IGDORE)}
+\authornote{Naskah ini ditulis untuk diajukan sebagai bagian dari buku teks **Pengantar Psikologi Politik** yang diterbitkan oleh Ikatan Psikologi Sosial.
+
+
+Correspondence concerning this article should be addressed to Rizqy Amelia Zein, Kampus B Universitas Airlangga, Jalan Airlangga 4-6 Surabaya, Jawa Timur 60286. E-mail: amelia.zein@psikologi.unair.ac.id}
+\DeclareDelayedFloatFlavor{ThreePartTable}{table}
+\DeclareDelayedFloatFlavor{lltable}{table}
+\DeclareDelayedFloatFlavor*{longtable}{table}
+\makeatletter
+\renewcommand{\efloat@iwrite}[1]{\immediate\expandafter\protected@write\csname efloat@post#1\endcsname{}}
+\makeatother
+\usepackage{lineno}
+
+\linenumbers
+\ifnum 0\ifxetex 1\fi=0 % if pdftex or luatex
+  \usepackage[shorthands=off,main=english]{babel}
+\else % if xetex
+  % load polyglossia as late as possible as it *could* call bidi if RTL lang (e.g. Hebrew or Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{english}
+\fi
+
+\title{Metodologi Penelitian dalam Psikologi Politik}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{metodologi-penelitian-dalam-psikologi-politik}{%
+\section{Metodologi Penelitian dalam Psikologi Politik}\label{metodologi-penelitian-dalam-psikologi-politik}}
+
+Meskipun hitung cepat (\emph{quick count}) mayoritas lembaga survei menunjukkan temuan yang bertolak belakang, Prabowo Subianto, calon Presiden pada Pemilihan Umum (Pemilu) 2019, buru-buru mengumumkan kemenangannya di depan awak media beberapa jam setelah Tempat Pemungutan Suara (TPS) ditutup. Berbekal temuan hitung cepat dan \emph{exit poll} dari beberapa lembaga survei sekaligus perhitungan riil (\emph{real count}) yang dilakukan oleh relawannya, Prabowo mengumumkan setidaknya ia meraup suara dengan margin yang sangat besar. Meskipun temuan lembaga survei yang dirujuk Prabowo bertolak belakang dengan kebanyakan lembaga survei termasuk perhitungan resmi Komisi Pemilihan Umum (KPU), Prabowo dan pendukungnya amat mempercayai temuan lembaga survei yang memenangkan Prabowo dan dengan lantang menuduh lembaga survei yang berbeda dengan klaimnya merupakan lembaga bayaran, tidak saintifik, dan partisan.
+
+Dari kasus diatas tentu menarik untuk membahas pertanyaan-pertanyaan seperti; bagaimana sebenarnya cara terbaik untuk membedakan informasi yang saintifik, sains semu (\emph{pseudoscience}), mis/disinformasi, dan khayalan? Bagaimana sesungguhnya cara kerja ilmuwan dalam menghasilkan temuan yang saintifik? Dan bagaimana seharusnya temuan penelitian dilaporkan dan disebarluaskan?
+
+\hypertarget{logika-saintifik-scientific-reasoning}{%
+\subsection{\texorpdfstring{1. Logika saintifik (\emph{scientific reasoning})}{1. Logika saintifik (scientific reasoning)}}\label{logika-saintifik-scientific-reasoning}}
+
+Apabila anda mengingat kembali berbagai konsep yang telah anda pelajari di mata kuliah Pengantar Psikologi, anda mendapati hal-hal yang menarik, seperti; anak-anak dapat menirukan perilaku kekerasan (yaitu dengan memukul boneka Bobo) dengan mengamati orang dewasa yang melakukan perilaku tersebut, atau pembalap sepeda meraih waktu tempuh yang lebih cepat ketika membalap bersama orang lain daripada mengendarai sepedanya sendirian. Atau anda mungkin masih mengingat studi Latane dan Darley yang sangat populer, yang menunjukkan bahwa semakin banyak orang mendapati keadaan darurat, dimana seorang korban membutuhkan bantuan, justru menurunkan peluang korban tersebut mendapatkan bantuan. Mungkin anda juga bertanya-tanya mengapa anda tidak diajarkan cara membaca karakter seseorang dari garis tangan atau sidik jarinya, meskipun teknik ini sangat populer di kalangan awam.
+
+Teori-teori di Psikologi pada dasarnya dibangun dengan pengamatan yang cermat dan sistematis, bukan yang ceroboh dan mengandalkan intuisi. Ilmuwan Psikologi tidak boleh menebak-nebak atau mencocok-cocokkan antara satu kejadian dengan kejadian yang lain. Untuk mengetahui apa yang bisa dan tidak bisa dipercaya, ilmuwan Psikologi sangat mengandalkan pengamatan yang cermat. Meskipun ada beberapa pendekatan yang menawarkan cara alternatif dalam merumuskan pengetahuan, pendekatan \emph{empirisme} adalah yang paling dominan di sejarah perkembangan ilmu Psikologi.
+
+Persoalan membedakan antara yang saintifik dengan yang tidak merupakan problem klasik yang diperdebatkan para filosof sejak dulu. Karl Popper (1902-1994) merupakan salah satu filosof yang cukup cerdik mengartikulasikan permasalahan ini dengan menyebutnya \textbf{problem demarkasi}. Popper sebenarnya tidak terlalu tertarik untuk memberikan label atas \enquote{mana yang saintifik dan yang tidak}, namun ia lebih banyak menjelaskan bagaimana strategi terbaik untuk menghasilkan pengetahuan yang saintifik.
+
+Awalnya, filosof positivis percaya bahwa satu-satunya cara yang ampuh dalam memisahkan antara yang saintifik dengan yang tidak adalah dengan melakukan \emph{verifikasi}. Prosedur ini dilakukan peneliti dengan memeriksa kesesuaian antara asumsi, teori, atau hipotesis dengan bukti empirik. Apabila bukti empirik yang tersedia konsisten dengan pernyataan yang hendak diuji, maka pernyataan tersebut dinyatakan terbukti sehingga dianggap saintifik.
+
+Sebelum dicari korespondensinya pada realitas yang sedang diamati, pernyataan yang akan diuji harus memiliki \textbf{kriteria verifikasi}, yaitu suatu teori \textbf{hanya dapat diverifikasi} ketika peneliti dapat menjelaskan secara rinci bagaimana langkah-langkah pengujiannya dalam bentuk \textbf{definisi operasional}. Definisi operasional adalah deskripsi yang memuat prosedur rinci yang harus dilakukan pengamat dalam menentukan eksistensi (ada/tidaknya) dan kualitas fenomena atau konsep yang diamati (Dienes, 2008).
+
+Filosof yang mendukung positivisme tidak menyadari bahwa ada problem yang amat mendasar dari prosedur verifikasi. Utamanya ketika memastikan apakah bukti empirik yang diperoleh dari satu pengamatan akan berlaku pada pengamatan yang lain. Misalnya, ketika Ngadiman mengetahui bahwa (1) cabai berwarna merah, apakah (2) semua cabai akan memiliki warna yang sama? Pernyataan (1) dapat diperiksa melalui pengamatan langsung dengan logika \textbf{deduksi}, sedangkan permasalahan pada pernyataan (2) dapat diselesaikan dengan logika \textbf{induksi}.
+
+\textbf{Deduksi} merupakan proses penarikan kesimpulan yang mengandaikan apabila terdapat hubungan yang logis antara dua pernyataan, maka kesimpulan yang mengikutinya akan sahih pula. Misalnya,
+
+\begin{quote}
+Semua cabai berwarna werah
+Ngadiman memetik cabai
+Maka: Cabai Ngadiman berwarna merah
+\end{quote}
+
+Sedangkan induksi merupakan proses penarikan kesimpulan dari pengamatan berulang atas suatu gejala, misalnya
+
+\begin{quote}
+Ngadiman memetik cabai berwarna merah
+Yuli memetik cabai berwarna merah
+Sunu memetik cabai berwarna merah
+Bejo memetik cabai berwarna merah
+Dono memetik cabai berwarna merah
+Maka: semua cabai berwarna merah
+\end{quote}
+
+Kesimpulan dari logika induksi di atas tentu tak bisa serta-merta dianggap benar, sedangkan kesimpulan yang ditarik dengan logika deduksi juga sangat dangkal. Bagaimana mungkin dengan hanya satu kali mengamati, Ngadiman dapat yakin bahwa teorinya (semua cabai berwarna merah) tepat? Di sisi lain, meskipun Ngadiman tidak lagi sendirian mengamati warna cabai, rasanya janggal apabila kita langsung meyakini bahwa semua cabai berwarna merah. Namun tentu saja, apabila kita terus-menerus mendapati bukti yang konsisten setelah berulang kali mengamati, kita akan lebih percaya diri dalam menarik kesimpulan. Oleh karena itu, dapat disimpulkan bahwa kemungkinan kesimpulan pengamatan berlaku secara umum (generalisasi) akan meningkat seiring dengan ditemukannya bukti yang mendukung, ketika mengamatinya berulang-ulang.
+
+Manariknya, Popper menolak asumsi ini. Klaim bahwa suatu pernyataan dapat dikatakan benar ketika bukti yang konsisten terakumulasi dari pengamatan berulang adalah sesuatu yang tidak masuk akal. Ketika kita akan mengamati warna cabai, tidak ada jaminan bahwa kita akan mendapati warna yang sama dengan pengamatan kita sebelumnya. Kita juga tidak bisa memperkirakan seberapa mungkin temuan kita sebelumnya, akan kita temui lagi di pengamatan berikutnya. Yang terpenting dari kritik Popper pada filosof positivisme adalah ketika mengasumsikan suatu teori adalah benar, sesungguhnya secara paradoks kita sekaligus mengasumsikan bahwa teori tersebut salah. Oleh karena itu, \textbf{suatu teori hanya akan benar selama tidak ada bukti yang dapat menggugurkannya}. Pernyataan \emph{semua cabai berwana merah} akan langsung gugur apabila seorang pengamat menemukan ada \emph{satu cabai yang berwarna hijau}. Popper menyebutkan bahwa pengetahuan saintifik tidak mungkin didapatkan dengan sekadar mengamati gejala. Merumuskan teori sesungguhnya bukan tujuan sains, karena kepastian dan kebenaran mutlak dari suatu teori tak mungkin dapat dicapai. Popper juga menunjukkan bahaya \emph{fallibilism}, yaitu amat mungkin hal-hal yang kita percayai justru sesungguhnya sangat keliru.
+
+Sepanjang sejarah sains, kita sering menemukan episode dimana sekelompok orang berusaha mempertahankan tradisi mengenai \enquote{apa-apa yang sudah kadung mereka percayai} sehingga penyimpangan atas tradisi ini berakibat pengucilan dan pembungkaman. Sebaliknya, sains justru berkembang dalam situasi yang penuh kontradiksi - ketika bukti baru, teknik baru, temuan baru, tokoh baru, menantang kepercayaan yang sudah mapan. Popper dengan tegas mengusulkan bahwa tujuan sains seharusnya adalah \textbf{memfalsifikasi}, yaitu mencari bukti yang bertentangan dengan keyakinan atau asumsi yang dimiliki oleh peneliti (Thornton, 2019). Apabila peneliti menemukan bukti mendukung asumsinya, maka \textbf{bukan berarti} asumsi tersebut benar atau terbukti benar (\emph{proved/established}), tetapi peneliti hanya dapat mengklaim bahwa asumsinya \textbf{didukung oleh bukti} (\emph{corroborated}). Asumsi tersebut berhasil dipertahankan dengan pengujian yang cermat melalui proses falsifikasi, bukan karena ia \enquote{mutlak benar}, namun karena \enquote{sementara ini} asumsi tersebut yang paling mendekati kebenaran. Premis inilah yang kemudian menjadi sifat dasar sains, yaitu kesementaraan (provisional). Artinya, teori hanya dapat dianggap benar selama belum ada bukti yang menggugurkannya. Seiring dengan munculnya teknik baru, cara baru, dan bukti baru yang menambal kekurangan penelitian sebelumnya, maka pemahaman kita atas realitas akan semakin berkembang. Oleh karena itu, selain membutuhkan kebaruan dan inovasi, sains juga membutuhkan koreksi atas dirinya sendiri (\emph{self-correction}) (Nosek et al., 2015).
+
+\hypertarget{menjadi-produsen-dan-konsumen-penelitian}{%
+\subsection{2. Menjadi produsen dan konsumen penelitian}\label{menjadi-produsen-dan-konsumen-penelitian}}
+
+\hypertarget{strategi-pemeriksaan-kesahihan-temuan-penelitian}{%
+\subsection{3. Strategi pemeriksaan kesahihan temuan penelitian}\label{strategi-pemeriksaan-kesahihan-temuan-penelitian}}
+
+\newpage
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-dienesUnderstandingPsychologyScience2008}{}%
+Dienes, Z. (2008). \emph{Understanding psychology as a science}. London: Palgrave Macmillan.
+
+\leavevmode\hypertarget{ref-Nosek2015}{}%
+Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., \ldots{} Yarkoni, T. (2015). Promoting an open research culture. \emph{Science}, \emph{348}(6242), 1422--1425. \url{https://doi.org/10.1126/science.aab2374}
+
+\leavevmode\hypertarget{ref-thorntonKarlPopper2019}{}%
+Thornton, S. (2019). Karl Popper. In E. N. Zalta (Ed.), \emph{The Stanford Encyclopedia of Philosophy} (Winter 2019). Metaphysics Research Lab, Stanford University.
+
+\leavevmode\hypertarget{ref-dienesUnderstandingPsychologyScience2008}{}%
+Dienes, Z. (2008). \emph{Understanding psychology as a science}. London: Palgrave Macmillan.
+
+\leavevmode\hypertarget{ref-Nosek2015}{}%
+Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., \ldots{} Yarkoni, T. (2015). Promoting an open research culture. \emph{Science}, \emph{348}(6242), 1422--1425. \url{https://doi.org/10.1126/science.aab2374}
+
+\leavevmode\hypertarget{ref-thorntonKarlPopper2019}{}%
+Thornton, S. (2019). Karl Popper. In E. N. Zalta (Ed.), \emph{The Stanford Encyclopedia of Philosophy} (Winter 2019). Metaphysics Research Lab, Stanford University.
+
+\endgroup
+
+\end{document}
