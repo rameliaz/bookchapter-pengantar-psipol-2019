@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.28)  21 DEC 2019 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.27)  27 DEC 2019 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **draf-naskah.tex
 (./draf-naskah.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2019-10-01> patch level 3
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/apa6/apa6.cl
 s
@@ -12,11 +12,11 @@ Document Class: apa6 2018/09/01 v2.33 APA formatting (6th edition)
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article
 .cls
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.
 clo
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -32,7 +32,7 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/eto
 olbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count88
 )
 Class apa6 Info: No bibliography package was specified; defaulting to (but not 
@@ -92,18 +92,21 @@ val.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/i
-fpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpd
+f.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifte
+x.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvt
+ex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/i
-fvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ifxetex/if
-xetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxe
+tex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count89
 \Gm@cntv=\count90
@@ -124,7 +127,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/gra
 phics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/tri
 g.sty
@@ -134,7 +137,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 /graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def
 /pdftex.def
@@ -145,7 +148,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/boo
 ktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
 \cmidrulewidth=\dimen115
@@ -182,11 +185,11 @@ Package: threeparttable 2003/06/13  v 3.0
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/capt
 ion.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+Package: caption 2019/10/18 v3.4a Customizing captions (AR)
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/capt
 ion3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen126
 \captionmargin@=\dimen127
@@ -195,9 +198,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@indent=\dimen130
 \caption@parindent=\dimen131
 \caption@hangindent=\dimen132
+Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count96
-\c@ContinuedFloat=\count97
+\c@continuedfloat=\count97
 Package caption Info: threeparttable package is loaded.
 )
 \c@APAenum=\count98
@@ -207,12 +211,12 @@ Package caption Info: threeparttable package is loaded.
 \gr@boxheight=\skip55
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
+LaTeX Info: Redefining \bm on input line 209.
 )
 \c@appendix=\count99
 
@@ -251,12 +255,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsm
 ath.sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
+Package: amsmath 2019/11/16 v2.17d AMS math features
 \@mathmargin=\skip65
 For additional information on amsmath, use the `?' option.
 
@@ -281,20 +286,20 @@ pn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count104
-LaTeX Info: Redefining \frac on input line 223.
+LaTeX Info: Redefining \frac on input line 227.
 \uproot@=\count105
 \leftroot@=\count106
-LaTeX Info: Redefining \overline on input line 385.
+LaTeX Info: Redefining \overline on input line 389.
 \classnum@=\count107
 \DOTSCASE@=\count108
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box29
 \strutbox@=\box30
 \big@size=\dimen135
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count109
 \c@MaxMatrixCols=\count110
 \dotsspace@=\muskip10
@@ -315,13 +320,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip66
 \multlinetaggap=\skip67
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/i
-fluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iflu
+atex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc
 .sty
@@ -362,7 +366,7 @@ Now handling font encoding TS1 ...
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.
 dfu
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -432,6 +436,8 @@ File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
    defining Unicode char U+FEFF (decimal 65279)
 ))
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -505,17 +511,17 @@ tim
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mi
 crotype.sty
-Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks24
 \MT@count=\count116
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen142
-LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count117
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mi
 crotype-pdftex.def
-File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
@@ -525,32 +531,24 @@ Package microtype Info: Loading configuration file microtype.cfg.
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mi
 crotype.cfg
-File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/pars
 kip.sty
 Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
 
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/kvo
-ptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kv
+options.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/l
-txcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/lt
+xcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/k
-vsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/i
-nfwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/e
-texcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-))))
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/
+kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)))
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolo
 r.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -570,64 +568,50 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/boo
-kmark.sty
-Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyp
+erref.sty
+Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
 
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/p
-dfescape.sty
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/p
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdftexcmds/p
 dftexcmds.sty
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
-Package pdftexcmds Info: LuaTeX not detected.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/
+infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyp
-erref.sty
-Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
-
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/h
-obsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/h
-obsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package hobsub Info: Skipping package `pdfescape' (already loaded).
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefineke
+ys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/
+pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hyco
+lor.sty
+Package: hycolor 2019/12/15 v1.9 Color options for hyperref/bookmark (HO)
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/xcol
+or-patch.sty
+Package: xcolor-patch 2019/12/15 xcolor patch
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/hop
+atch.sty
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)))
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/
+letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/aux
-hook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxh
+ook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen143
 \Hy@linkcounter=\count118
@@ -635,9 +619,17 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1
 enc.def
-File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/in
+tcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/e
+texcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count120
 
@@ -645,40 +637,55 @@ Now handling font encoding PD1 ...
 hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4424.
+Package hyperref Info: Option `unicode' set `true' on input line 4409.
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pue
 nc.def
-File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2019/11/10 v7.00c Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4550.
-Package hyperref Info: Link nesting OFF on input line 4555.
-Package hyperref Info: Hyper index ON on input line 4558.
-Package hyperref Info: Plain pages OFF on input line 4565.
-Package hyperref Info: Backreferencing OFF on input line 4570.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4803.
+Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count121
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5156.
+LaTeX Info: Redefining \url on input line 5147.
 \XeTeXLinkMargin=\dimen144
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bit
+set.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc
+/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
 \Fld@menulength=\count122
 \Field@Width=\dimen145
 \Fld@charsize=\dimen146
-Package hyperref Info: Hyper figures OFF on input line 6411.
-Package hyperref Info: Link nesting OFF on input line 6416.
-Package hyperref Info: Hyper index ON on input line 6419.
-Package hyperref Info: backreferencing OFF on input line 6426.
-Package hyperref Info: Link coloring OFF on input line 6431.
-Package hyperref Info: Link coloring with OCG OFF on input line 6436.
-Package hyperref Info: PDF/A mode OFF on input line 6441.
-LaTeX Info: Redefining \ref on input line 6481.
-LaTeX Info: Redefining \pageref on input line 6485.
+Package hyperref Info: Hyper figures OFF on input line 6418.
+Package hyperref Info: Link nesting OFF on input line 6423.
+Package hyperref Info: Hyper index ON on input line 6426.
+Package hyperref Info: backreferencing OFF on input line 6433.
+Package hyperref Info: Link coloring OFF on input line 6438.
+Package hyperref Info: Link coloring with OCG OFF on input line 6443.
+Package hyperref Info: PDF/A mode OFF on input line 6448.
+LaTeX Info: Redefining \ref on input line 6488.
+LaTeX Info: Redefining \pageref on input line 6492.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/atbegshi/a
+tbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
 \Hy@abspage=\count123
 \c@Item=\count124
 \c@Hfootnote=\count125
@@ -687,47 +694,49 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpd
 ftex.def
-File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/atveryend/at
+veryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
 \Fld@listcount=\count126
 \c@bookmark@seq@number=\count127
 
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/rer
-unfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfileche
+ck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecoun
+ter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+86.
 )
 \Hy@SectionHShift=\skip69
 )
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/bkm
--pdftex.def
-File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
-\BKM@id=\count128
-))
-Package hyperref Info: Option `breaklinks' set `true' on input line 41.
-
-(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/grf
-file.sty
-Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
-Package grffile Info: Option `multidot' is set to `true'.
-Package grffile Info: Option `extendedchars' is set to `false'.
-Package grffile Info: Option `space' is set to `true'.
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grff
+ile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csq
 uotes.sty
-Package: csquotes 2019/05/10 v5.2e context-sensitive quotations (JAW)
-\csq@reset=\count129
-\csq@gtype=\count130
-\csq@glevel=\count131
-\csq@qlevel=\count132
-\csq@maxlvl=\count133
-\csq@tshold=\count134
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count128
+\csq@gtype=\count129
+\csq@glevel=\count130
+\csq@qlevel=\count131
+\csq@maxlvl=\count132
+\csq@tshold=\count133
 \csq@ltx@everypar=\toks25
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csq
 uotes.def
-File: csquotes.def 2019/05/10 v5.2e csquotes generic definitions (JAW)
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
@@ -746,21 +755,21 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longta
 ble.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
 \LTleft=\skip70
 \LTright=\skip71
 \LTpre=\skip72
 \LTpost=\skip73
-\LTchunksize=\count135
+\LTchunksize=\count134
 \LTcapwidth=\dimen147
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
 \LT@lastfoot=\box34
-\LT@cols=\count136
-\LT@rows=\count137
-\c@LT@tables=\count138
-\c@LT@chunks=\count139
+\LT@cols=\count135
+\LT@rows=\count136
+\c@LT@tables=\count137
+\c@LT@chunks=\count138
 \LT@p@ftn=\toks26
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lsc
@@ -771,7 +780,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 tirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip74
-\multirow@cntb=\count140
+\multirow@cntb=\count139
 \multirow@dima=\skip75
 \bigstrutjot=\dimen148
 )
@@ -781,7 +790,7 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.
 sty
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen149
 \ar@mcellbox=\box35
 \extrarowheight=\dimen150
@@ -795,7 +804,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@old@col=\dimen153
 \TX@target=\dimen154
 \TX@delta=\dimen155
-\TX@cols=\count141
+\TX@cols=\count140
 \TX@ftn=\toks28
 )
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttab
@@ -817,16 +826,16 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lineno/linen
 o.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count142
+\linenopenalty=\count141
 \output=\toks29
-\linenoprevgraf=\count143
+\linenoprevgraf=\count142
 \linenumbersep=\dimen156
 \linenumberwidth=\dimen157
-\c@linenumber=\count144
-\c@pagewiselinenumber=\count145
-\c@LN@truepage=\count146
-\c@internallinenumber=\count147
-\c@internallinenumbers=\count148
+\c@linenumber=\count143
+\c@pagewiselinenumber=\count144
+\c@LN@truepage=\count145
+\c@internallinenumber=\count146
+\c@internallinenumbers=\count147
 \quotelinenumbersep=\dimen158
 \bframerule=\dimen159
 \bframesep=\dimen160
@@ -837,32 +846,565 @@ LaTeX Warning: Command \@parboxrestore  has changed.
 
 LaTeX Info: Redefining \\ on input line 3056.
 )
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tocloft/tocl
+oft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip80
+\cftbeforetoctitleskip=\skip81
+\cftaftertoctitleskip=\skip82
+\cftbeforepartskip=\skip83
+\cftpartnumwidth=\skip84
+\cftpartindent=\skip85
+\cftbeforesecskip=\skip86
+\cftsecindent=\skip87
+\cftsecnumwidth=\skip88
+\cftbeforesubsecskip=\skip89
+\cftsubsecindent=\skip90
+\cftsubsecnumwidth=\skip91
+\cftbeforesubsubsecskip=\skip92
+\cftsubsubsecindent=\skip93
+\cftsubsubsecnumwidth=\skip94
+\cftbeforeparaskip=\skip95
+\cftparaindent=\skip96
+\cftparanumwidth=\skip97
+\cftbeforesubparaskip=\skip98
+\cftsubparaindent=\skip99
+\cftsubparanumwidth=\skip100
+\cftbeforeloftitleskip=\skip101
+\cftafterloftitleskip=\skip102
+\cftbeforefigskip=\skip103
+\cftfigindent=\skip104
+\cftfignumwidth=\skip105
+\c@lofdepth=\count148
+\c@lotdepth=\count149
+\cftbeforelottitleskip=\skip106
+\cftafterlottitleskip=\skip107
+\cftbeforetabskip=\skip108
+\cfttabindent=\skip109
+\cfttabnumwidth=\skip110
+
+Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing
+ out. on input line 1147.
+
+)
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babe
 l.sty
-Package: babel 2019/07/19 3.33 The Babel package
+Package: babel 2019/12/08 3.37 The Babel package
 
 (c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/swit
 ch.def
-File: switch.def 2019/07/19 3.33 Babel switching mechanism
+File: switch.def 2019/12/08 3.37 Babel switching mechanism
 )
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-engl
+ish/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
 
-! Package babel Error: Unknown option `english'. Either you misspelled it
-(babel)                or the language definition file english.ldf was not foun
-d.
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babe
+l.def
+File: babel.def 2019/12/08 3.37 Babel common definitions
+\babel@savecnt=\count150
+\U@D=\dimen161
 
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.560   \ExecuteOptions{\bbl@opt@main}
-                                       
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/txtb
+abel.def)
+\bbl@dirlevel=\count151
+)
+Package babel Info: \l@british = using hyphenrules for english
+(babel)             (\language0) on input line 82.
+Package babel Info: \l@UKenglish = using hyphenrules for english
+(babel)             (\language0) on input line 83.
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for english
+(babel)             (\language0) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for english
+(babel)             (\language0) on input line 108.
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-engl
+ish/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+(./draf-naskah.aux)
+\openout1 = `draf-naskah.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+50.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.
+fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
+0.
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=15.2pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=95.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg
+/epstopdf-base.sty
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grfext/grfex
+t.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/
+epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/apa6/config/
+APAamerican.txt
+File: APAamerican.txt 2012/02/23 v1.25 apa6 configuration for American English
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltca
+ption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 150.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 150.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt
+-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring OFF on input line 150.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nam
+eref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/ref
+count.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlest
+ring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count152
+)
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \nameref on input line 150.
+(./draf-naskah.out) (./draf-naskah.out)
+\@outlinefile=\write5
+\openout5 = `draf-naskah.out'.
+
+
+Class apa6 Warning: Abstract not defined.
+
+Class apa6 Info: Keywords not defined on input line 152.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+52.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+52.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+52.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+152.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.f
+d
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+152.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.f
+d
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 152.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 152.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 152.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 152
+.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ums
+a.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt
+-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 152
+.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ums
+b.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt
+-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt
+-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+) [1{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map}
+
+] [2] [3] [4]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[5] [6] [7]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[8] [9] [10] [11] [12] [13]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+84.
+
+(c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[14] [15]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[16] [17] [18]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[19] [20]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[22]
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+[23]
+\openout4 = `draf-naskah.fff'.
+
+(draf-naskah.fff) [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[25] [26] [27] [28]pdfTeX warning (ext4): destination with the same identifier 
+(name{ref-bornsteinProcessfocusedModelTest2011}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.551 ...f-bornsteinProcessfocusedModelTest2011}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-choMakingReliabilityReliable2016}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.554 ...t{ref-choMakingReliabilityReliable2016}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-cronbachConstructValidityPsychologica
+l1955}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.557 ...bachConstructValidityPsychological1955}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-dienesUnderstandingPsychologyScience2
+008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.560 ...enesUnderstandingPsychologyScience2008}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-Duckitt2001}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.563 \leavevmode\hypertarget{ref-Duckitt2001}{}
+                                                % [29]pdfTeX warning (ext4): de
+stination with the same identifier (name{ref-dumenciMultitraitMultimethodAnalys
+is2000}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.566 ...menciMultitraitMultimethodAnalysis2000}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-dunnAlphaOmegaPractical2014}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.569 ...target{ref-dunnAlphaOmegaPractical2014}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-fowlerSurveyResearchMethods2014}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.572 ...et{ref-fowlerSurveyResearchMethods2014}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-friedMeasurementMatters2018}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.575 ...target{ref-friedMeasurementMatters2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-hunsleyIncrementalValidityPsychologic
+al2003}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.578 ...eyIncrementalValidityPsychological2003}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-mairModernPsychometrics2018}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.581 ...target{ref-mairModernPsychometrics2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-marisPsychometricLatentResponse1995})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.584 ...ef-marisPsychometricLatentResponse1995}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-mcneishThanksCoefficientAlpha2018}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.587 ...{ref-mcneishThanksCoefficientAlpha2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-messickValidityPsychologicalAssessmen
+t1995}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.590 ...ickValidityPsychologicalAssessment1995}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-morlingResearchMethodsPsychology2018}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.593 ...f-morlingResearchMethodsPsychology2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-Nosek2015}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.596 \leavevmode\hypertarget{ref-Nosek2015}{}
+                                              % [30]pdfTeX warning (ext4): dest
+ination with the same identifier (name{ref-Perezgonzalez2015}) has been already
+ used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.599 ...mode\hypertarget{ref-Perezgonzalez2015}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-petersAlphaOmegaScale2018}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.602 ...ertarget{ref-petersAlphaOmegaScale2018}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-revelleCoefficientsAlphaBeta2008}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.605 ...t{ref-revelleCoefficientsAlphaBeta2008}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-ruelPracticeSurveyResearch2016}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.608 ...get{ref-ruelPracticeSurveyResearch2016}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-sijtsmaUseMisuseVery2008}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.611 ...pertarget{ref-sijtsmaUseMisuseVery2008}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-skrondalLatentVariableModelling2007})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.614 ...ef-skrondalLatentVariableModelling2007}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-thorntonKarlPopper2019}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.617 ...hypertarget{ref-thorntonKarlPopper2019}{}
+                                                  %pdfTeX warning (ext4): desti
+nation with the same identifier (name{ref-wyndTwoQuantitativeApproaches2003}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.620 ...{ref-wyndTwoQuantitativeApproaches2003}{}
+                                                  % [31] AED endfloat: Processi
+ng end Figures and Tables (./draf-naskah.fff
+<images/normal-dist.png, id=354, 1027.84pt x 770.88pt>
+File: images/normal-dist.png Graphic file (type png)
+<use images/normal-dist.png>
+Package pdftex.def Info: images/normal-dist.png  used on input line 5.
+(pdftex.def)             Requested size: 685.12044pt x 513.84033pt.
+
+Overfull \hbox (215.36542pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+<images/confusion-matrix.jpg, id=356, 602.25pt x 430.60875pt>
+File: images/confusion-matrix.jpg Graphic file (type jpg)
+<use images/confusion-matrix.jpg>
+Package pdftex.def Info: images/confusion-matrix.jpg  used on input line 15.
+(pdftex.def)             Requested size: 401.8329pt x 287.31052pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[] \T1/lmr/m/it/12 (+20) Fig-ure 2\T1/lmr/m/n/12 (+20) . |Ke-sala-han dalam Pe-
+narikan Kes-im-pu-lan (In-fer-ensi) Sum-ber:
+ []
+
+<images/replication.png, id=357, 804.00375pt x 1284.8pt>
+File: images/replication.png Graphic file (type png)
+<use images/replication.png>
+Package pdftex.def Info: images/replication.png  used on input line 25.
+(pdftex.def)             Requested size: 407.0308pt x 650.43625pt.
+
+LaTeX Warning: Float too large for page by 34.00371pt on input line 30.
+
+<images/data-sharing.jpg, id=358, 1302.8675pt x 576.1525pt>
+File: images/data-sharing.jpg Graphic file (type jpg)
+<use images/data-sharing.jpg>
+Package pdftex.def Info: images/data-sharing.jpg  used on input line 35.
+(pdftex.def)             Requested size: 868.70212pt x 384.15639pt.
+
+Overfull \hbox (398.9471pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
+[32
+
+
+
+ <./images/normal-dist.png>] [33 <./images/confusion-matrix.jpg>] [34 <./images
+/replication.png>] [35 <./images/data-sharing.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
+(./draf-naskah.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 629.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
+Package rerunfilecheck Info: File `draf-naskah.out' has not changed.
+(rerunfilecheck)             Checksum: 3A5F8FF2030AEE40701CE4D45D813262;8976.
+ ) 
 Here is how much of TeX's memory you used:
- 15092 strings out of 494553
- 224002 string characters out of 6175559
- 344049 words of memory out of 5000000
- 18596 multiletter control sequences out of 15000+600000
- 4702 words of font info for 16 fonts, out of 8000000 for 9000
+ 17015 strings out of 494107
+ 259930 string characters out of 6171816
+ 374906 words of memory out of 5000000
+ 20572 multiletter control sequences out of 15000+600000
+ 56103 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,0n,47p,2250b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,51p,2250b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+m-mathit.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc
+/dvips/lm/lm-mathsy.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/Amelia Zein/AppData/Roaming/Tin
+yTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Amelia Zein/AppData/
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/Amelia Z
+ein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Use
+rs/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.p
+fb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
+lm/lmr12.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/lm/lmr8.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/texmf-dist/
+fonts/type1/public/lm/lmri12.pfb><c:/Users/Amelia Zein/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/Users/Amelia Zein/AppData/Roamin
+g/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Amelia Zein/App
+Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on draf-naskah.pdf (35 pages, 740614 bytes).
+PDF statistics:
+ 449 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 6389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!

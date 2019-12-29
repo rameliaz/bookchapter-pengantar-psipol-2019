@@ -6,7 +6,7 @@ Naskah ditulis dengan *package* `papaja`, `citr`, dan dengan dibantu oleh `Bette
 # Kerangka naskah
 Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
 * Logika saintifik (*scientific reasoning*)
-* Klaim saintifik dan strategi pemeriksaan kesahihah temuan penelitian
+* Klaim saintifik dan strategi pemeriksaan kredibilitas temuan penelitian
 
 * Isu mengenai pengukuran Psikologi
   - Konsep, konstruk dan variabel
@@ -20,9 +20,8 @@ Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
   - Survei
     * Pengantar penelitian survei
     * Populasi dan sampel
-    * Ragam desain penelitian survei (*cross-sectional*, longitudinal, *cross-lagged panel survey*)
-    * *Total survei error*
-    * Survei daring
+    * Menilai kualitas temuan penelitian survei
+    * Teknik pengumpulan data survei
     * Survei opini publik
   - Eksperimental
     * Kausalitas versus asosiasi
@@ -47,7 +46,6 @@ Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
   - Petunjuk praktis menjamin reproduksibilitas penelitian
     - Pra-registrasi
     - Manajemen data penelitian berbasis kendali versi (*version control*)
-    - Akses terbuka
 
 * Isu-isu etika dalam penelitian Psikologi Politik
   - Anonimitas dan kerahasiaan

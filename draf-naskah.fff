@@ -1,0 +1,40 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=9.48in]{images/normal-dist}
+
+}
+
+\caption{Distribusi normal}\label{fig:unnamed-chunk-1}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=5.56in]{images/confusion-matrix}
+
+}
+
+\caption{Kesalahan dalam Penarikan Kesimpulan (Inferensi) Sumber: https://dzone.com/articles/understanding-the-confusion-matrix}\label{fig:unnamed-chunk-2}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=7.42in]{images/replication}
+
+}
+
+\caption{Reka-ulang Data Penelitian Sumber: https://theupturnedmicroscope.com/}\label{fig:unnamed-chunk-3}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=12.02in]{images/data-sharing}
+
+}
+
+\caption{Reka-ulang Data Penelitian Sumber: https://theupturnedmicroscope.com/}\label{fig:unnamed-chunk-4}
+\end{figure*}
