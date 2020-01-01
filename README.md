@@ -12,10 +12,6 @@ Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
   - Konsep, konstruk dan variabel
   - Validitas dan reliabilitas
 
-* Pengujian hipotesis
-  - Kesalahan penarikan kesimpulan dalam paradigma *null hypothesis significant testing*
-  - Nilai p, *statistical power*, ukuran efek (*effect size*), dan rentang kepercayaan (*confidence interval*)
-
 * Ragam desain penelitian dalam studi-studi Psikologi Politik
   - Survei
     * Pengantar penelitian survei
@@ -23,31 +19,24 @@ Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
     * Menilai kualitas temuan penelitian survei
     * Teknik pengumpulan data survei
     * Survei opini publik
-  - Eksperimental
-    * Kausalitas versus asosiasi
-    * Ragam desain eksperimen (*within* dan *between-group design*)
-    * Validitas internal dan eksternal penelitian eksperimen
+  - Penelitian Eksperimen
+    * Ragam desain eksperimen (*within-subjects* dan *between-group design*)
     * Pendekatan survei eksperimen
-  - Pemrosesan teks dan metode implisit
   - Penelitian meta (tinjauan sistematis dan meta-analisis)
-    * Kelebihan dan fungsi penelitian kumulatif
-    * Tren penelitian meta dalam perkembangan Psikologi Politik
-  - Pendekatan interpretif
-    * Studi kasus
-    * Fenomenologi
-    * *Grounded theory*
   - Penyimpulan karakter tokoh politik dengan pendekatan *at a distance*
-  
-* Revolusi kredibilitas: Coba-ulang (*reproducibility*) dan reka-ulang (*replicability*) dalam penelitian Psikologi Politik
-  - Bias publikasi dan praktik meneliti yang meragukan (*questionable research practices*)
-  - Krisis kredibilitas, replikabilitas, dan reproduksibilitas
-  - Ketimpangan dalam diskursus pengetahuan global
-  - Tantangan dan peluang bagi peneliti Indonesia
-  - Petunjuk praktis menjamin reproduksibilitas penelitian
-    - Pra-registrasi
-    - Manajemen data penelitian berbasis kendali versi (*version control*)
+  - Pendekatan interpretif (kualitatif)
+
+* Pengujian hipotesis
+  - Kesalahan penarikan kesimpulan dalam paradigma *null hypothesis significant testing*
+  - Nilai p, *statistical power*, dan ukuran efek (*effect size*)
 
 * Isu-isu etika dalam penelitian Psikologi Politik
-  - Anonimitas dan kerahasiaan
-  - Persetujuan atas tindakan (*informed consent*)
-  - Transparansi dan risiko pengungkapan (*disclosure risk*)
+  - Prinsip menghormati individu (*respect for person*)
+  - Prinsip kebermanfaatan (*beneficence*)
+  - Prinsip keadilan
+  
+  * Revolusi kredibilitas: Coba-ulang (*reproducibility*) dan reka-ulang (*replicability*) dalam penelitian Psikologi
+  - Krisis kredibilitas, bias publikasi, dan praktik meneliti yang meragukan (*questionable research practices*)
+  - Petunjuk praktis menjamin agar penelitian dapat direka-ulang
+    - Pra-registrasi
+    - Manajemen data penelitian
