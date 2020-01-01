@@ -35,7 +35,7 @@ Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
   - Prinsip kebermanfaatan (*beneficence*)
   - Prinsip keadilan
   
-  * Revolusi kredibilitas: Coba-ulang (*reproducibility*) dan reka-ulang (*replicability*) dalam penelitian Psikologi
+* Revolusi kredibilitas: Coba-ulang (*reproducibility*) dan reka-ulang (*replicability*) dalam penelitian Psikologi
   - Krisis kredibilitas, bias publikasi, dan praktik meneliti yang meragukan (*questionable research practices*)
   - Petunjuk praktis menjamin agar penelitian dapat direka-ulang
     - Pra-registrasi
