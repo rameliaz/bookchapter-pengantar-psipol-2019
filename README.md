@@ -24,7 +24,7 @@ Berikut ini adalah tema-tema yang diangkat dalam bab buku tersebut:
     * Pendekatan survei eksperimen
   - Penelitian meta (tinjauan sistematis dan meta-analisis)
   - Penyimpulan karakter tokoh politik dengan pendekatan *at a distance*
-  - Pendekatan interpretif (kualitatif)
+  - Pendekatan interpretif (kualitatif), pengukuran implisit, dan pemrosesan teks
 
 * Pengujian hipotesis
   - Kesalahan penarikan kesimpulan dalam paradigma *null hypothesis significant testing*
